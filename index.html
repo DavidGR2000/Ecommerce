@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://kit.fontawesome.com/5dab81677c.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="cabezera">
+    <nav>
+      <ul>
+        <li><a href="#p">Home</a></li>
+        <li><a href="#p">Productos</a></li>
+        <li><a href="#p">sobre nosotros</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="contenedor__principal" id="p">
+    <main class="contenedor__productos">
+      <section id="productosContenedor" class="productos"></section>
+    </main>
+    <asside class="contenedor__carrito">
+      <i class="fas fa-cart-plus carro"></i>
+      <div class="cajita">
+        <div id="articulosContenedor" class="articulos"></div>
+      </div>
+      <br>
+      <h3>Total: <span id="precioTotal"></span></h3>
+      <div id="btnsAcciones" class="botones">
+        <button type="button" class="comprar">Comprar</button>
+        <button type="button" class="limpiar" >Vaciar</button>
+      </div>
+    </asside>
+  </div>
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+</html>
